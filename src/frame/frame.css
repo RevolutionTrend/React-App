@@ -1,0 +1,43 @@
+.header-main {
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+}
+.header-icon {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+}
+.header-icon i {
+	cursor: pointer;
+}
+.header-title {
+	flex: 1;
+}
+.side-ul {
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+}
+.side-ul li {
+	height: 44px;
+	overflow: hidden;
+}
+.side-li {
+	list-style: none;
+	padding: 0 10px;
+	height: 44px;
+	text-align: left;
+	display: flex;
+	line-height: 44px;
+	cursor: pointer;
+}
+.side-ul a {
+	color: #2196F3;
+	text-decoration: none;
+	flex: 1;
+}
+div.side-li span {
+	color: #2196F3;
+	flex: 1;
+}
